@@ -21,7 +21,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          fghfg
           <Route
             path="/"
             element={
