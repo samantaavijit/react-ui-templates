@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          fghfg
           <Route
             path="/"
             element={
@@ -29,9 +30,7 @@ function App() {
               </Layout>
             }
           />
-
           {/* AUTH ROUTE */}
-
           <Route
             path="/login"
             element={
@@ -48,9 +47,7 @@ function App() {
               </Layout>
             }
           />
-
           {/* END AUTH ROUTE */}
-
           <Route element={<ProtectRoute />}>
             <Route
               path="/dashboard"
