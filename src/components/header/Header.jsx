@@ -1,14 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./header.css";
 import { Dropdown } from "react-bootstrap";
 
 export default function Header() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
