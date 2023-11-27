@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Layout from "./common/Layout";
 import Home from "./pages/home/Home";
+import AboutUs from "./pages/about/AboutUs";
 import Login from "./pages/auth/Login";
 import Registration from "./pages/auth/Registration";
 import Dashboard from "./pages/dashboard/Dashboard";
@@ -26,6 +27,14 @@ function App() {
             element={
               <Layout>
                 <Home />
+              </Layout>
+            }
+          />
+          <Route
+            path="/about-us"
+            element={
+              <Layout>
+                <AboutUs />
               </Layout>
             }
           />
